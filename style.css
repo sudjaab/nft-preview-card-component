@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	color: hsl(215, 32%, 27%);
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+body {
+	background-color: hsl(217, 54%, 11%);
+	display: flex;
+	justify-content: center;
+	font-family: 'Outfit', sans-serif;
+}
+.container {
+	background-color: hsl(216, 50%, 16%);
+	width: 75%;
+	padding: 1.5rem;
+	border-radius: 1.5rem;
+	margin-top: 4%;
+}
+.image-equilibrium {
+	background-color: hsl(178, 100%, 50%);
+	border-radius: 0.8rem;
+	width: 100%;
+	background-image: url('./images/icon-view.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.image-equilibrium img {
+	width: 100%;
+	cursor: pointer;
+	border-radius: 0.8rem;
+}
+.image-equilibrium img:hover {
+	opacity: 0.5;
+}
+
+h2 {
+	color: white;
+	font-weight: 500;
+	cursor: pointer;
+}
+h2:hover {
+	color: hsl(178, 100%, 50%);
+}
+p {
+	color: hsl(215, 51%, 70%);
+}
+.eth-and-day {
+	display: flex;
+	justify-content: center;
+}
+
+.eth {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	width: 50%;
+}
+.eth p {
+	color: hsl(178, 100%, 50%);
+}
+
+.day {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	width: 50%;
+}
+.icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 0.3rem;
+}
+
+.creation-of {
+	border-top: 1px solid hsl(215, 32%, 27%);
+	display: flex;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+.creation-of p span {
+	cursor: pointer;
+	color: white;
+}
+.creation-of p span:hover {
+	color: hsl(178, 100%, 50%);
+}
+.creation-of img {
+	width: 10%;
+	height: 10%;
+	border: 1px solid white;
+	border-radius: 50%;
+	margin-right: 0.8rem;
+}
+@media (min-width: 425px) {
+	.container {
+		width: 65%;
+	}
+}
+@media (min-width: 640px) {
+	.container {
+		width: 45%;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		width: 35%;
+	}
+}
+@media (min-width: 1024px) {
+	.container {
+		width: 25%;
+	}
+}
+@media (min-width: 1440px) {
+	.container {
+		width: 19%;
+	}
+}
